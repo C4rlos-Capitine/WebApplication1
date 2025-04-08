@@ -1,0 +1,26 @@
+﻿@{
+    Layout = "_Layout";
+    <!-- Garantindo que o layout básico seja usado -->
+}
+@model IEnumerable<Produto> 
+
+<h2>Lista de Produtos</h2>
+<table>
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Nome</th>
+            <th>Preço</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var produto in Model)
+        {
+            <tr>
+                <td>@produto.Id</td>
+                <td>@produto.Nome</td>
+                <td>@produto.Preco</td>
+            </tr>
+        }
+    </tbody>
+</table>
