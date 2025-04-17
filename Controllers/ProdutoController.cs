@@ -5,23 +5,73 @@ namespace WebApplication1.Controllers
 {
     public class ProdutoController : Controller
     {
+        private readonly MeuDbContext _context;
         private readonly ILogger<ProdutoController> _logger;
-        public ProdutoController(ILogger<ProdutoController> logger)
+
+        public ProdutoController(MeuDbContext context, ILogger<ProdutoController> logger)
         {
+            _context = context;
             _logger = logger;
         }
+
         public ActionResult Index()
         {
-            // Exemplo com uma lista de produtos fictícia
-            var produtos = new List<Produto>
-        {
-            new Produto { Id = 1, Nome = "Camiseta", Preco = 29.90m },
-            new Produto { Id = 2, Nome = "Calça", Preco = 79.90m },
-            new Produto { Id = 3, Nome = "Tênis", Preco = 150.00m }
-        };
-
+            // Buscando produtos do banco de dados
+            var produtos = _context.Produtos.ToList();
             return View(produtos);
         }
-    }
+        [HttpGet]
+        public IActionResult Form()
+        {
+            return View();
+        }
 
+        // Método para criar um novo produto
+        [HttpPost]
+        public ActionResult Criar(Produto produto)
+        {
+            if (ModelState.IsValid)
+            {
+                _context.Produtos.Add(produto);
+                _context.SaveChanges();
+                return RedirectToAction(nameof(Index));
+            }
+            return View(produto);
+        }
+
+        // Método para editar um produto
+        public ActionResult Editar(int id)
+        {
+            var produto = _context.Produtos.Find(id);
+            if (produto == null)
+            {
+                return NotFound();
+            }
+            return View(produto);
+        }
+
+        [HttpPost]
+        public ActionResult Editar(Produto produto)
+        {
+            if (ModelState.IsValid)
+            {
+                _context.Produtos.Update(produto);
+                _context.SaveChanges();
+                return RedirectToAction(nameof(Index));
+            }
+            return View(produto);
+        }
+
+        // Método para excluir um produto
+        public ActionResult Excluir(int id)
+        {
+            var produto = _context.Produtos.Find(id);
+            if (produto != null)
+            {
+                _context.Produtos.Remove(produto);
+                _context.SaveChanges();
+            }
+            return RedirectToAction(nameof(Index));
+        }
+    }
 }

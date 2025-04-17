@@ -1,0 +1,95 @@
+﻿
+@{
+    ViewData["Title"] = "View";
+}
+
+<h1>View</h1>
+
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Tabela com Navegação</title>
+</head>
+<body>
+
+    <div class="container mt-5">
+        <h2>Tabela de Exemplo</h2>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Nome</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody id="table-body">
+                <!-- Os dados da tabela serão gerados aqui -->
+            </tbody>
+        </table>
+
+        <div class="d-flex justify-content-between">
+            <button id="previous" class="btn btn-secondary" disabled>Anterior</button>
+            <button id="next" class="btn btn-primary">Próximo</button>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script>
+        const data = [
+            { name: "João", email: "joao@example.com" },
+            { name: "Maria", email: "maria@example.com" },
+            { name: "José", email: "jose@example.com" },
+            { name: "Ana", email: "ana@example.com" },
+            { name: "Pedro", email: "pedro@example.com" },
+            { name: "Paula", email: "paula@example.com" },
+            { name: "Lucas", email: "lucas@example.com" },
+            { name: "Rita", email: "rita@example.com" },
+            { name: "Carlos", email: "carlos@example.com" },
+            { name: "Fernanda", email: "fernanda@example.com" },
+        ];
+
+        const limit = 3; // Limite de itens por página
+        let currentIndex = 0; // Índice atual
+
+        function loadTableData() {
+            const tableBody = document.getElementById('table-body');
+            tableBody.innerHTML = ''; // Limpa o conteúdo da tabela
+
+            const nextItems = data.slice(currentIndex, currentIndex + limit);
+
+            nextItems.forEach((item, index) => {
+                const row = document.createElement('tr');
+                row.innerHTML = `<td>${currentIndex + index + 1}</td><td>${item.name}</td><td>${item.email}</td>`;
+                tableBody.appendChild(row);
+            });
+
+            // Atualiza a habilitação dos botões
+            document.getElementById('previous').disabled = currentIndex === 0;
+            document.getElementById('next').disabled = currentIndex + limit >= data.length;
+        }
+
+        document.getElementById('next').addEventListener('click', () => {
+            if (currentIndex + limit < data.length) {
+                currentIndex += limit;
+                loadTableData();
+            }
+        });
+
+        document.getElementById('previous').addEventListener('click', () => {
+            if (currentIndex - limit >= 0) {
+                currentIndex -= limit;
+                loadTableData();
+            }
+        });
+
+        // Carrega os dados iniciais
+        loadTableData();
+    </script>
+
+</body>
+</html>
+
