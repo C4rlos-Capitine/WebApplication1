@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "E1mXt+bjzugD2ThCjYGfd8pBlu96EOEqYPVg9i1UTss=",
+  "Hash": "mczJseNF1ueDVfqHk5VaAQcR1RDASPPo7dU38I7VScE=",
   "Source": "WebApplication1",
   "BasePath": "_content/WebApplication1",
   "Mode": "Default",
@@ -57,6 +57,90 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\FALCAO\\source\\repos\\WebApplication1\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebApplication1.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\FALCAO\\source\\repos\\WebApplication1\\wwwroot\\css\\bootstrap.min.css",
+      "SourceId": "WebApplication1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\FALCAO\\source\\repos\\WebApplication1\\wwwroot\\",
+      "BasePath": "_content/WebApplication1",
+      "RelativePath": "css/bootstrap.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cahq7x68qs",
+      "Integrity": "/DpUiQQ1NQOhgJt9FrUrzyPUh47mXuGqZEAfoDqEUUg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\FALCAO\\source\\repos\\WebApplication1\\wwwroot\\css\\bootstrap-extended.min.css",
+      "SourceId": "WebApplication1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\FALCAO\\source\\repos\\WebApplication1\\wwwroot\\",
+      "BasePath": "_content/WebApplication1",
+      "RelativePath": "css/bootstrap-extended.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bchd2ussfc",
+      "Integrity": "C9NPwLWZBdNg8vkJHiBxx2/tQJKVls0cWTChEeWfauk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap-extended.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\FALCAO\\source\\repos\\WebApplication1\\wwwroot\\css\\colors.min.css",
+      "SourceId": "WebApplication1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\FALCAO\\source\\repos\\WebApplication1\\wwwroot\\",
+      "BasePath": "_content/WebApplication1",
+      "RelativePath": "css/colors.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ra9mvcb4c8",
+      "Integrity": "bUgLnlzjXmi1Z4IE71pYKIKkIky1mE5aHkkL+Lbz6lY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\colors.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\FALCAO\\source\\repos\\WebApplication1\\wwwroot\\css\\components.min.css",
+      "SourceId": "WebApplication1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\FALCAO\\source\\repos\\WebApplication1\\wwwroot\\",
+      "BasePath": "_content/WebApplication1",
+      "RelativePath": "css/components.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "55bjqjwz3u",
+      "Integrity": "KQWSBwA+thNToVFwbuCp5C+4W4Yh/SwR3S/bZIIGo4k=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\components.min.css"
     },
     {
       "Identity": "C:\\Users\\FALCAO\\source\\repos\\WebApplication1\\wwwroot\\css\\site.css",
@@ -1320,6 +1404,334 @@
     }
   ],
   "Endpoints": [
+    {
+      "Route": "css/bootstrap.min.cahq7x68qs.css",
+      "AssetFile": "C:\\Users\\FALCAO\\source\\repos\\WebApplication1\\wwwroot\\css\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "211898"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/DpUiQQ1NQOhgJt9FrUrzyPUh47mXuGqZEAfoDqEUUg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 May 2025 10:17:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cahq7x68qs"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/DpUiQQ1NQOhgJt9FrUrzyPUh47mXuGqZEAfoDqEUUg="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap.min.css",
+      "AssetFile": "C:\\Users\\FALCAO\\source\\repos\\WebApplication1\\wwwroot\\css\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "211898"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/DpUiQQ1NQOhgJt9FrUrzyPUh47mXuGqZEAfoDqEUUg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 May 2025 10:17:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/DpUiQQ1NQOhgJt9FrUrzyPUh47mXuGqZEAfoDqEUUg="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap-extended.min.bchd2ussfc.css",
+      "AssetFile": "C:\\Users\\FALCAO\\source\\repos\\WebApplication1\\wwwroot\\css\\bootstrap-extended.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "50550"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"C9NPwLWZBdNg8vkJHiBxx2/tQJKVls0cWTChEeWfauk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 May 2025 10:17:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bchd2ussfc"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap-extended.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-C9NPwLWZBdNg8vkJHiBxx2/tQJKVls0cWTChEeWfauk="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap-extended.min.css",
+      "AssetFile": "C:\\Users\\FALCAO\\source\\repos\\WebApplication1\\wwwroot\\css\\bootstrap-extended.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "50550"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"C9NPwLWZBdNg8vkJHiBxx2/tQJKVls0cWTChEeWfauk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 May 2025 10:17:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-C9NPwLWZBdNg8vkJHiBxx2/tQJKVls0cWTChEeWfauk="
+        }
+      ]
+    },
+    {
+      "Route": "css/colors.min.css",
+      "AssetFile": "C:\\Users\\FALCAO\\source\\repos\\WebApplication1\\wwwroot\\css\\colors.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "240600"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bUgLnlzjXmi1Z4IE71pYKIKkIky1mE5aHkkL+Lbz6lY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 May 2025 10:17:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-bUgLnlzjXmi1Z4IE71pYKIKkIky1mE5aHkkL+Lbz6lY="
+        }
+      ]
+    },
+    {
+      "Route": "css/colors.min.ra9mvcb4c8.css",
+      "AssetFile": "C:\\Users\\FALCAO\\source\\repos\\WebApplication1\\wwwroot\\css\\colors.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "240600"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bUgLnlzjXmi1Z4IE71pYKIKkIky1mE5aHkkL+Lbz6lY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 May 2025 10:17:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ra9mvcb4c8"
+        },
+        {
+          "Name": "label",
+          "Value": "css/colors.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-bUgLnlzjXmi1Z4IE71pYKIKkIky1mE5aHkkL+Lbz6lY="
+        }
+      ]
+    },
+    {
+      "Route": "css/components.min.55bjqjwz3u.css",
+      "AssetFile": "C:\\Users\\FALCAO\\source\\repos\\WebApplication1\\wwwroot\\css\\components.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "68657"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KQWSBwA+thNToVFwbuCp5C+4W4Yh/SwR3S/bZIIGo4k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 May 2025 10:17:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "55bjqjwz3u"
+        },
+        {
+          "Name": "label",
+          "Value": "css/components.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KQWSBwA+thNToVFwbuCp5C+4W4Yh/SwR3S/bZIIGo4k="
+        }
+      ]
+    },
+    {
+      "Route": "css/components.min.css",
+      "AssetFile": "C:\\Users\\FALCAO\\source\\repos\\WebApplication1\\wwwroot\\css\\components.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "68657"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KQWSBwA+thNToVFwbuCp5C+4W4Yh/SwR3S/bZIIGo4k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 May 2025 10:17:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KQWSBwA+thNToVFwbuCp5C+4W4Yh/SwR3S/bZIIGo4k="
+        }
+      ]
+    },
     {
       "Route": "css/site.c2tiyv64ts.css",
       "AssetFile": "C:\\Users\\FALCAO\\source\\repos\\WebApplication1\\wwwroot\\css\\site.css",

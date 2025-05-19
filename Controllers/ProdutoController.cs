@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using WebApplication1.Models;
 
 namespace WebApplication1.Controllers
@@ -23,6 +24,8 @@ namespace WebApplication1.Controllers
         [HttpGet]
         public IActionResult Form()
         {
+            // Carrega a lista de fornecedores e a passa para a view
+            ViewBag.Fornecedores = new SelectList(_context.Fornecedores, "Id", "Nome");
             return View();
         }
 

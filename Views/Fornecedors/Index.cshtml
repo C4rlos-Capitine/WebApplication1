@@ -6,10 +6,16 @@
 
 <h1>Index</h1>
 
+<script>
+    $(document).ready(function(){
+         new DataTable('#example');
+    })
+</script>
+
 <p>
-    <a asp-action="Create">Create New</a>
+    <a class="btn-accent-1" asp-area="" asp-controller="Fornecedors" asp-action="Create">Novo Fornecedor</a>
 </p>
-<table class="table">
+<table id="example" class="table table-hover">
     <thead>
         <tr>
             <th>

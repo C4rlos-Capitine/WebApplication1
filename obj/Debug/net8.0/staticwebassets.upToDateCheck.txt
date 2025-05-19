@@ -1,3 +1,7 @@
+wwwroot\css\bootstrap.min.css
+wwwroot\css\bootstrap-extended.min.css
+wwwroot\css\colors.min.css
+wwwroot\css\components.min.css
 wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\js\site.js

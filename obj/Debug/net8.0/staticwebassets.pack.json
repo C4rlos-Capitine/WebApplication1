@@ -5,6 +5,22 @@
       "PackagePath": "staticwebassets\\WebApplication1.yj6fvmmoe8.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\FALCAO\\source\\repos\\WebApplication1\\wwwroot\\css\\bootstrap-extended.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-extended.min.css"
+    },
+    {
+      "Id": "C:\\Users\\FALCAO\\source\\repos\\WebApplication1\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\FALCAO\\source\\repos\\WebApplication1\\wwwroot\\css\\colors.min.css",
+      "PackagePath": "staticwebassets\\css\\colors.min.css"
+    },
+    {
+      "Id": "C:\\Users\\FALCAO\\source\\repos\\WebApplication1\\wwwroot\\css\\components.min.css",
+      "PackagePath": "staticwebassets\\css\\components.min.css"
+    },
+    {
       "Id": "C:\\Users\\FALCAO\\source\\repos\\WebApplication1\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
